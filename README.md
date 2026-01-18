@@ -13,7 +13,7 @@
 
 **痛点解决**：标准的系统监控工具（如 `htop` 或 `nvtop`）通常只显示进程的可执行文件名（如 `python` 或 `ros2`），导致开发者难以区分具体的 ROS 节点。**ROS 2 Resource Monitor** 填补了这一空白，它能自动将 `ros2 node list` 中的节点名映射到系统 PID，并提供递归的 CPU 和 GPU 统计。
 
-![Demo](https://via.placeholder.com/800x400?text=Placeholder+for+Screenshot+of+r2mon)
+![Demo](./demo.png)
 *(建议在此处替换为你的运行截图)*
 
 ### ✨ 核心特性
